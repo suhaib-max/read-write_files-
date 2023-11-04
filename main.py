@@ -19,8 +19,14 @@
 
 # use mode "a" = append
 
-with open("new_file.txt", mode="a") as file:
-    file.write("New text")
+# with open("new_file.txt", mode="a") as file:
+#     file.write("New text")
+
+# opening file the never exist
+# it create a file for us only in write mode
+with open("second_file.txt", mode='w') as file:
+    file.write("hello second ")
+
 
 
 
