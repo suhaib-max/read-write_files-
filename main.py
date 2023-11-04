@@ -9,9 +9,15 @@
 ### it hard to remember close the file
 
 # with keyword
-with open("new_file.txt") as file:
-    contents = file.read()
-    print(contents)
+# with open("new_file.txt") as file:
+#     contents = file.read()
+#     print(contents)
+
+# while writing change mode, this method will delete
+with open("new_file.txt", mode="w") as file:
+    file.write("New text.")
+
+
 
 
 
