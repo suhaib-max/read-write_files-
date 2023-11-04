@@ -14,8 +14,13 @@
 #     print(contents)
 
 # while writing change mode, this method will delete
-with open("new_file.txt", mode="w") as file:
-    file.write("New text.")
+# with open("new_file.txt", mode="w") as file:
+#     file.write("New text.")
+
+# use mode "a" = append
+
+with open("new_file.txt", mode="a") as file:
+    file.write("New text")
 
 
 
